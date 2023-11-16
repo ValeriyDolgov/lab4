@@ -14,5 +14,6 @@ array = [64, 34, 25, 12, 22, 11, 90]
 start_time = time.time()
 bubble_sort(array)
 end_time = time.time()
+print("Количесвтво элементов в массиве:", len(array))
 print("Отсортированный массив (пузырьком):", array)
 print("Время выполнения (пузырьком):", end_time - start_time, "секунд")
